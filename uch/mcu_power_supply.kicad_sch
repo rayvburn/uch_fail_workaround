@@ -1,0 +1,24 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 0bb9bbb1-5c82-404b-b370-6f708f593576)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "MH Mini 360 Buck Converter" (at 46.99 59.69 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e518882a-74fa-4fec-8e42-be4f2ea3a8ee)
+  )
+
+  (hierarchical_label "12V" (shape input) (at 49.53 62.23 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3c1f4760-5ae7-4a67-be9c-bf6e4d88e8c2)
+  )
+  (hierarchical_label "3V3" (shape output) (at 72.39 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a0d9fbdc-c46a-4238-8452-ceca4035da59)
+  )
+)
