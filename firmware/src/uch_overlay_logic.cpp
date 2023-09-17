@@ -21,7 +21,8 @@ UchOverlayLogic::UchOverlayLogic(
 	input_so_far_(0), // arbitrary at this point
 	input_new_(0),
 	timestamp_last_input_change_(0),
-	timestamp_shutoff_start_(0)
+	timestamp_shutoff_start_(0),
+	duration_last_pulse_(0)
 {
 	// hardware
 	pinMode(indoor_power_factory_input_pin_, INPUT);
