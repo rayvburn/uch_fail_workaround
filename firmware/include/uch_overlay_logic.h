@@ -56,10 +56,8 @@ protected:
 	// State handlers
 	void stateHandlerIdle();
 	void stateHandlerCountingPulseDuration();
-	void stateHandlerWaitingFirstShutOff();
-	void stateHandlerFirstShutOff();
-	void stateHandlerWaitingSecondShutOff();
-	void stateHandlerSecondShutOff();
+	void stateHandlerWaitingShutOff();
+	void stateHandlerShutOff();
 
 	// Handles the logic that controls switching between the states
 	void selectState(unsigned long timestamp, bool input_changed);

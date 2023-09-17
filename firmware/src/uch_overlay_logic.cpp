@@ -77,10 +77,10 @@ void UchOverlayLogic::update() {
 			stateHandlerCountingPulseDuration();
 			break;
 		case (WAITING_SHUT_OFF):
-			stateHandlerWaitingFirstShutOff();
+			stateHandlerWaitingShutOff();
 			break;
 		case (SHUT_OFF):
-			stateHandlerFirstShutOff();
+			stateHandlerShutOff();
 			break;
 	}
 
@@ -113,19 +113,11 @@ void UchOverlayLogic::stateHandlerCountingPulseDuration() {
 	// counting...
 }
 
-void UchOverlayLogic::stateHandlerWaitingFirstShutOff() {
+void UchOverlayLogic::stateHandlerWaitingShutOff() {
 	applyFactoryIndoorPower();
 }
 
-void UchOverlayLogic::stateHandlerFirstShutOff() {
-	cutOffIndoorPower();
-}
-
-void UchOverlayLogic::stateHandlerWaitingSecondShutOff() {
-	applyFactoryIndoorPower();
-}
-
-void UchOverlayLogic::stateHandlerSecondShutOff() {
+void UchOverlayLogic::stateHandlerShutOff() {
 	cutOffIndoorPower();
 }
 
