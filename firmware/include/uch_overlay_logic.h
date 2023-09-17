@@ -52,6 +52,9 @@ public:
 	/// GPIO testing - prints updates periodically
 	void test();
 
+	/// Resets the counting
+	void reset();
+
 	/// Whether is in non-idle state
 	inline bool isActive() const {
 		return state_ != IDLE;
