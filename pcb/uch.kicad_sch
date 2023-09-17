@@ -2818,8 +2818,14 @@
     (path "/278dc4b7-2630-479d-8034-cfc1316491b6"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
+    (path "/85db2150-cea2-4cf5-a7c9-341a51ca6912/3aa64c09-4b95-4432-bd25-15fa9e76de00"
+      (reference "C?") (unit 1) (value "220nF") (footprint "")
+    )
     (path "/4a74475a-b29e-4c24-8f86-8872e3943c24"
       (reference "C?") (unit 1) (value "150uF") (footprint "")
+    )
+    (path "/1b8da897-fddd-4894-a2ba-c46dc8f4cf5e/6c8aab24-315c-4ddd-baa0-b7c18e9adb8d"
+      (reference "C?") (unit 1) (value "220nF") (footprint "")
     )
     (path "/c1b5b8e6-b0bc-4b1d-afc4-85d8280a1793"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
@@ -2876,7 +2882,7 @@
       (reference "R?") (unit 1) (value "20k") (footprint "")
     )
     (path "/1b8da897-fddd-4894-a2ba-c46dc8f4cf5e/1d4c9268-82aa-4f44-a0d0-6b0811bbaa46"
-      (reference "R?") (unit 1) (value "600R") (footprint "")
+      (reference "R?") (unit 1) (value "1k") (footprint "")
     )
     (path "/85db2150-cea2-4cf5-a7c9-341a51ca6912/5fcb36c1-7bd7-4e1d-88f2-57ce979c37bf"
       (reference "R?") (unit 1) (value "4k7") (footprint "")
