@@ -105,6 +105,14 @@ void UchOverlayLogic::test() {
 	timestamp_last_test_ = timestamp;
 }
 
+void UchOverlayLogic::reset() {
+	state_ = IDLE;
+	state_changed_ = true;
+	timestamp_last_input_change_ = 0;
+	timestamp_shutoff_start_ = 0;
+	duration_last_pulse_ = 0;
+}
+
 void UchOverlayLogic::stateHandlerIdle() {
 	applyFactoryIndoorPower();
 }
