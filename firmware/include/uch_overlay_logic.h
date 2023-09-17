@@ -52,6 +52,11 @@ public:
 	/// GPIO testing - prints updates periodically
 	void test();
 
+	/// Whether is in non-idle state
+	inline bool isActive() const {
+		return state_ != IDLE;
+	}
+
 protected:
 	// State handlers
 	void stateHandlerIdle();
