@@ -4,8 +4,8 @@
 
 class UchOverlayLogic {
 public:
-	static constexpr unsigned long DURATION_INDOOR_PWR_PULSE_MIN = 200;
-	static constexpr unsigned long DURATION_INDOOR_PWR_PULSE_MAX = 500;
+	static constexpr unsigned long DURATION_INDOOR_PWR_PULSE_MIN = 150;
+	static constexpr unsigned long DURATION_INDOOR_PWR_PULSE_MAX = 350;
 
 	/// Factory signal typically appears after (in ms)
 	static constexpr unsigned long TIME_TO_SHUT_OFF = 59000;
